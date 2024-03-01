@@ -1,0 +1,87 @@
+
+.pagination-parent-element ul li a {
+    border: none;
+    color: black;
+    background-color: transparent !important;
+  }
+  
+  .pagination-parent-element ul li span {
+    border: 50;
+    /* color: black; */
+    border-radius: 8px;
+  
+    /* background-color:transparent !important; */
+  }
+  
+  
+  .pagination-parent-element .pagination .page-item.active .page-link {
+    background-color: #EBF5FF;
+    /* Customize the background color */
+    border-color: #084782;
+    /* Customize the border color */
+    color: #084782 !important;
+    /* Customize the text color */
+    border-radius: 8px;
+  }
+  
+  .pagination-parent-element .pagination .page-item:not(.disabled):hover .page-link {
+    background-color: #EBF5FF;
+    /* Customize the hover background color */
+    border-color: #084782;
+    /* Customize the hover border color */
+    color: #084782 !important;
+    border-radius: 8px;
+  }
+  
+  .pagination-parent-element .pagination .prev-next-button {
+    color: #ff0022 !important;
+    /* Set the default color for prev/next buttons */
+  }
+  
+  
+  /* .pagination-parent-element .prev-next-button.active .page-link{ */
+  /* background-color: #EBF5FF; Customize the background color */
+  /* border-color: #084782; Customize the border color */
+  /* color: #084782 !important; Customize the text color */
+  /* border-radius: 8px; */
+  /* } */
+  
+  .pagination-parent-element .pagination .prev-next-button:not(.disabled) .page-link {
+    background-color: #084782;
+    /* Customize the background color */
+    border-color: #084782;
+    /* Customize the border color */
+    color: #084782 !important;
+    /* Customize the text color */
+    border-radius: 8px;
+  }
+  
+  .pagination-parent-element .prev-next-button {
+    background-color: #ffffff !important;
+    
+    background-color: var(var(--bs-success-bg));
+    /* Set the default color for prev/next buttons */
+  }
+  
+  .pagination-parent-element .li .prev-next-button.disabled .page-link{
+    border-radius: 8px;
+    border-color: #ff0022;
+    background-color: #ff0022 !important;
+    color: #03eccd;
+  }
+  .pagination-parent-element  .prev-next-button:focus {
+    border-color: #040305 !important;
+    background-color: #000000 !important;
+  
+  }
+  
+  .pagination .pagination-parent-element .prev-next-button.active  .page-link{
+    border-color: #ff0022 !important;
+    background-color: #ff0022 !important;
+  
+  }
+  
+  .pagination{
+    --bs-pagination-disabled-bg: white !important;
+    --bs-pagination-disabled-border-color: white !important;
+  }
