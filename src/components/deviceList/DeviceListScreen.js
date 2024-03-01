@@ -33,8 +33,6 @@ const DeviceListScreen = () => {
             try {
                 setLoading(true)
                 const response = await getAppliances();
-                console.log(response)
-                // const response = await axios.get(`http://localhost:8080/api/v1/appliances`);
                 if (response.status === 200) {
                     setapplianceData(response.data)
                     GetApplianceStatusData(response.data)
